@@ -4,7 +4,7 @@ import java.io.*;
 public class Solution {
 	
 	public static long maxSubarraySum(int[] arr, int n) {
-    long cur_sum = arr[0];
+		long cur_sum = arr[0];
 		long max_sum = 0;
 
 		for(int i = 1; i < n; i++){
